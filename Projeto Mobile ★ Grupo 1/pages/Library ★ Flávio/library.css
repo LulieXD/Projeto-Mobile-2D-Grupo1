@@ -1,1 +1,15 @@
 /*Library ★ Flávio*/
+.flex-container {
+    background-color: #901d1d;
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-container > div{
+    background-color: #f1f1f1;
+    width: 100px;
+    margin: auto;
+    text-align: center;
+    line-height: normal;
+    font-size: large;
+}
