@@ -1,1 +1,63 @@
 /*Login ★ Maria*/
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Lexend', sans-serif;
+
+    background-color:black;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+form {
+    padding: 30px;
+    border-radius: 15px;
+    text-align: center;
+    width: 300px;
+    background-color: rgba(29, 26, 26, 0.2);
+    backdrop-filter: blur(10px);
+    border: 1px solid #e91e63;
+}
+
+form h3 {
+    color: #e91e63;
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 20px;
+    background-color: #ffc0cb;
+    color: #000;
+    font-size: 16px;
+}
+
+input[type="submit"] {
+    margin: 0 auto;
+    max-width: 100px;
+    width: 100%;
+    padding: 10px;
+    background-color: #e91e63;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover {
+    background-color: #d81b60;
+}
