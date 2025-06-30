@@ -5,7 +5,7 @@
 }
 
 body {
-  background-color: #000;
+  background-color: #000 ;
   color: white;
   font-family: Arial, sans-serif;
 }
@@ -93,7 +93,7 @@ section {
 
 footer {
   background-color: #390b57;
-  padding: 12px 0;
+  padding: 12px 0px;
   display: flex;
   justify-content: space-around;
   align-items: center;
