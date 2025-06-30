@@ -10,12 +10,12 @@ body {
     color: rgb(255, 255, 255);
 }
 
-.flex-container {
+.flex-conteiner {
     display: flex;
     background-color: #151515;
     }
 
-    .flex-container > div{
+    .flex-conteiner > div{
         justify-items: center;
         background-color: blueviolet;
         width: 200px;
