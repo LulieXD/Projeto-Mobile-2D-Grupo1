@@ -1,1 +1,104 @@
-/*Home ★ Shelly*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #000;
+  color: white;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  max-width: 400px;
+  margin: 0 auto;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+}
+
+.search-bar {
+  display: flex;
+  background: white;
+  border-radius: 20px;
+  overflow: hidden;
+  flex: 1;
+  margin-right: 10px;
+}
+
+.search-bar input {
+  border: none;
+  padding: 10px;
+  flex: 1;
+  outline: none;
+}
+
+.search-bar button {
+  background: none;
+  border: none;
+  padding: 10px;
+}
+
+.search-bar img {
+  width: 20px;
+  height: 20px;
+}
+
+.profile-icon {
+  font-size: 22px;
+}
+
+main {
+  flex: 1;
+  padding: 20px 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+section {
+  display: flex;
+  justify-content: space-between;
+  gap: 15px;
+}
+
+.square, .circle, .folder {
+  background-color: #ccc;
+  flex: 1;
+}
+
+.square {
+  aspect-ratio: 1 / 1;
+  border-radius: 10px;
+}
+
+.circle {
+  aspect-ratio: 1 / 1;
+  border-radius: 50%;
+}
+
+.folder {
+  height: 50px;
+  border-radius: 10px;
+}
+
+footer {
+  background-color: #390b57;
+  padding: 12px 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.icon {
+  font-size: 22px;
+}
