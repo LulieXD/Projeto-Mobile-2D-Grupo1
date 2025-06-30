@@ -1,9 +1,9 @@
 // Login ★ Maria
 function logar() {
-    var login = document.getElementById('login').value;
+    var usuario = document.getElementById('usuario').value;
     var senha = document.getElementById('senha').value;
     
-    if (login == "pipi" && senha == "123") {
+    if (usuario == "usuario" && senha == "123") {
         alert('Sucesso!');
         window.location.href = "home.html";
     } else {
