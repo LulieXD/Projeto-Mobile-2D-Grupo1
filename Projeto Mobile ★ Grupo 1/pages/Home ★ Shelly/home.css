@@ -98,3 +98,32 @@ footer {
 .icon {
   font-size: 22px;
 }
+
+.klebereanus{
+  width: 90px;
+   height:90px;
+   object-fit: cover;
+   border-radius: 50%;
+   border: 5px solid var(--accent);
+   box-shadow: 0 0 10px var(--accent-glow);
+
+}
+
+.Skillet{
+  width: 90px;
+   height:90px;
+   object-fit: cover;
+   border-radius: 50%;
+   border: 5px solid var(--accent);
+   box-shadow: 0 0 10px var(--accent-glow);
+  }
+
+  .Sabaton{
+    width: 90px;
+     height:90px;
+     object-fit: cover;
+     border-radius: 50%;
+     border: 5px solid var(--accent);
+     box-shadow: 0 0 10px var(--accent-glow);
+  
+  }
