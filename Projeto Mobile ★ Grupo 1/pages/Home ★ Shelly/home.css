@@ -1,7 +1,6 @@
-
 body {
-  background-color: #000 ;
-  color: white;
+  background-color: #000 !important;
+  color: rgb(255, 255, 255);
   font-family: Arial, sans-serif;
 }
 
@@ -11,7 +10,7 @@ body {
   height: 100vh;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: flex-start; 
 }
 
 header {
@@ -54,7 +53,7 @@ header {
 
 main {
   flex: 1;
-  padding: 20px 15px;
+  padding: 10px 15px; 
   display: flex;
   flex-direction: column;
   gap: 30px;
@@ -63,27 +62,7 @@ main {
 section {
   display: flex;
   justify-content: space-between;
-  gap: 15px;
-}
-
-.square, .circle, .folder {
-  background-color: #ccc;
-  flex: 1;
-}
-
-.square {
-  aspect-ratio: 1 / 1;
-  border-radius: 10px;
-}
-
-.circle {
-  aspect-ratio: 1 / 1;
-  border-radius: 50%;
-}
-
-.folder {
-  height: 50px;
-  border-radius: 10px;
+  gap: 10px; /* gap menor */
 }
 
 footer {
@@ -99,31 +78,41 @@ footer {
   font-size: 22px;
 }
 
-.klebereanus{
+.klebereanus,
+.Skillet,
+.Sabaton {
   width: 90px;
-   height:90px;
-   object-fit: cover;
-   border-radius: 50%;
-   border: 5px solid var(--accent);
-   box-shadow: 0 0 10px var(--accent-glow);
-
+  height: 90px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 5px solid var(--accent);
+  box-shadow: 0 0 10px var(--accent-glow);
 }
 
-.Skillet{
+.Chorão,
+.Monter,
+.Kleberiano,
+.star,
+.roxo,
+.circulo {
   width: 90px;
-   height:90px;
-   object-fit: cover;
-   border-radius: 50%;
-   border: 5px solid var(--accent);
-   box-shadow: 0 0 10px var(--accent-glow);
-  }
+  height: 90px;
+  object-fit: cover;
+  border-radius: 10%;
+  border: 5px solid var(--accent);
+  box-shadow: 0 0 10px var(--accent-glow);
+}
 
-  .Sabaton{
-    width: 90px;
-     height:90px;
-     object-fit: cover;
-     border-radius: 50%;
-     border: 5px solid var(--accent);
-     box-shadow: 0 0 10px var(--accent-glow);
-  
-  }
+.artistas div p,
+.playlists div p,
+.músicas div p {
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  text-transform: capitalize;
+  margin-top: 8px; 
+}
+
+.artistas {
+  margin-top: -20px; 
+}
