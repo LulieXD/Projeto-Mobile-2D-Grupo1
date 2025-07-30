@@ -1,1 +1,65 @@
 /*Settings ★ Rafael*/
+
+.tema {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+/*Tema claro*/
+body {
+    background-color: #fff;
+    color: #000;
+    transition: background-color 0.3s ease, color 0.3s ease;
+
+    #theme-toggle {
+        background-color: #dcdcdc;
+        border: none;
+    }
+
+    /*Mudar cor de Divs*/
+    .header {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        background-color: #dcdcdc;
+    }
+
+    .botoes {
+        margin-top: 100px;
+        background-color: #dcdcdc;
+    }
+}
+
+/*Tema escuro*/
+body.dark-mode {
+    background-color: #000000;
+    color: #fff;
+
+    #theme-toggle {
+        background-color: #151515;
+        color: white;
+    }
+
+    /*Mudar cor de divs*/
+    .header {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        background-color: #151515;
+    }
+
+    .botoes {
+        margin-top: 100px;
+        background-color: #151515;
+    }
+}
+
+.conteiner {
+    text-align: center;
+    padding: 20px;
+}

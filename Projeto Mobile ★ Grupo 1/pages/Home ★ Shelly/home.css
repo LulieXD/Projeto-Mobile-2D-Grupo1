@@ -1,1 +1,118 @@
-/*Home ★ Shelly*/
+body {
+  background-color: #000 !important;
+  color: rgb(255, 255, 255);
+  font-family: Arial, sans-serif;
+}
+
+.conteiner {
+  max-width: 400px;
+  margin: 0 auto;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start; 
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+}
+
+.search-bar {
+  display: flex;
+  background: white;
+  border-radius: 20px;
+  overflow: hidden;
+  flex: 1;
+  margin-right: 10px;
+}
+
+.search-bar input {
+  border: none;
+  padding: 10px;
+  flex: 1;
+  outline: none;
+}
+
+.search-bar button {
+  background: none;
+  border: none;
+  padding: 10px;
+}
+
+.search-bar img {
+  width: 20px;
+  height: 20px;
+}
+
+.profile-icon {
+  font-size: 22px;
+}
+
+main {
+  flex: 1;
+  padding: 10px 15px; 
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+section {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px; /* gap menor */
+}
+
+footer {
+  background-color: #390b57;
+  padding: 12px 0px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+}
+
+.icon {
+  font-size: 22px;
+}
+
+.klebereanus,
+.Skillet,
+.Sabaton {
+  width: 90px;
+  height: 90px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 5px solid var(--accent);
+  box-shadow: 0 0 10px var(--accent-glow);
+}
+
+.Chorão,
+.Monter,
+.Kleberiano,
+.star,
+.roxo,
+.circulo {
+  width: 90px;
+  height: 90px;
+  object-fit: cover;
+  border-radius: 10%;
+  border: 5px solid var(--accent);
+  box-shadow: 0 0 10px var(--accent-glow);
+}
+
+.artistas div p,
+.playlists div p,
+.músicas div p {
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  text-transform: capitalize;
+  margin-top: 8px; 
+}
+
+.artistas {
+  margin-top: -20px; 
+}
