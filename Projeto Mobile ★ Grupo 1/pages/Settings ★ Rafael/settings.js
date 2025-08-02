@@ -23,3 +23,15 @@ if (savedTheme === 'dark') {
 
 // Adicionar um ouvinte de evento para o botão
 themeToggle.addEventListener('click', toggleTheme);
+
+//excluir conta
+
+function myFunction() {
+  var txt;
+  if (confirm("Sua conta será excluida caso\nconcorde com esta mensagem")) {
+    window.location.href="/Projeto Mobile ★ Grupo 1/pages/Login ★ Maria/index.html"
+  } else {
+    txt = "";
+  }
+
+}

@@ -37,7 +37,7 @@ body {
     margin-left: 0px;
 }
 
-/*Botão de controle e reprodução*/
+/*Botão de Download*/
 .downloadIcon {
     font-size: 250%;
     margin-left: 2%;
@@ -56,6 +56,106 @@ body {
 }
 
 .downloadDiv {
+    display: flex;
+    justify-content: left;
+    margin-left: 0px;
+}
+
+/*Botão de reportar bugs*/
+
+.reportIcon {
+    font-size: 250%;
+    margin-left: 2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .report {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-left: 10px;
+        
+    }
+
+}
+
+.reportDiv {
+    display: flex;
+    justify-content: left;
+    margin-left: 0px;
+}
+
+/*Botão Sobre os Devs*/
+
+.devsIcon {
+    font-size: 250%;
+    margin-left: 2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .devs {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-left: 10px;
+        
+    }
+
+}
+
+.devsDiv {
+    display: flex;
+    justify-content: left;
+    margin-left: 0px;
+}
+
+/*Sobre o App*/
+
+.sobreIcon {
+    font-size: 250%;
+    margin-left: 2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .sobre {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-left: 10px;
+        
+    }
+
+}
+
+.sobreDiv {
+    display: flex;
+    justify-content: left;
+    margin-left: 0px;
+}
+
+/*Excluir Conta*/
+
+.deletIcon {
+    font-size: 250%;
+    margin-left: 2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .delet {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-left: 10px;
+        
+    }
+
+}
+
+.deletDiv {
     display: flex;
     justify-content: left;
     margin-left: 0px;
@@ -101,6 +201,46 @@ body {
     }
     }
 
+    .reportDiv {
+        margin-top: 20px;
+        margin-left: 0;
+        background-color: #dcdcdc;
+
+    .reportIcon i {
+        color: rgb(0, 0, 0);
+    }
+    }
+    
+    .devsDiv {
+        margin-top: 20px;
+        margin-left: 0;
+        background-color: #dcdcdc;
+
+    .devsIcon i {
+        color: rgb(0, 0, 0);
+    }
+    }
+
+    .sobreDiv {
+        margin-top: 20px;
+        margin-left: 0;
+        background-color: #dcdcdc;
+
+    .sobreIcon i {
+        color: rgb(0, 0, 0);
+    }
+    }
+
+    .deletDiv {
+        margin-top: 20px;
+        margin-left: 0;
+        background-color: #dcdcdc;
+
+    .deletIcon i {
+        color: rgb(0, 0, 0);
+    }
+    }
+
     
 }
 
@@ -135,7 +275,47 @@ body.dark-mode {
         margin-left: 0;
         background-color: #151515;
 
-    .downloadIcon {
+    .downloadIcon i {
+        color: white;
+    }
+    }
+
+    .reportDiv {
+        margin-top: 20px;
+        margin-left: 0;
+        background-color: #151515;
+
+    .reportIcon i {
+        color: white;
+    }
+    }
+
+    .devsDiv {
+        margin-top: 20px;
+        margin-left: 0;
+        background-color: #151515;
+
+    .devsIcon i {
+        color: white;
+    }
+    }
+
+    .sobreDiv {
+        margin-top: 20px;
+        margin-left: 0;
+        background-color: #151515;
+
+    .sobreIcon i {
+        color: white;
+    }
+    }
+
+        .deletDiv {
+        margin-top: 20px;
+        margin-left: 0;
+        background-color: #151515;
+
+    .deletIcon i {
         color: white;
     }
     }
@@ -144,4 +324,9 @@ body.dark-mode {
 .container {
     text-align: center;
     padding: 20px;
+}
+
+
+.aaa {
+    background-color: #000;
 }
