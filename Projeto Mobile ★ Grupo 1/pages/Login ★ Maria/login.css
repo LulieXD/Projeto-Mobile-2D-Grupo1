@@ -1,0 +1,71 @@
+/*Login ★ Maria*/
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Lexend', sans-serif;
+
+    background-image: url('assets/purple-gradient.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+:root {
+    --accent: #e3bbff;
+    --accent-glow: #8606e1b0;
+    --text: #000000;
+    --darker-prp: #521e78;
+}
+
+form {
+    padding: 30px;
+    border-radius: 15px;
+    text-align: center;
+    width: 300px;
+    background-color: rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(50px);
+    border: 1px solid var(--accent-glow);
+}
+
+form h3 {
+    color: var(--accent-glow);
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 20px;
+    background-color: var(--accent);
+    color: #000;
+    font-size: 16px;
+    
+}
+
+input[type="submit"] {
+    margin: 0 auto;
+    max-width: 100px;
+    width: 100%;
+    padding: 10px;
+    background-color: var(--accent-glow);
+    color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover {
+    background-color: var(--darker-prp);
+}
