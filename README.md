@@ -1,2 +1,3 @@
-# Projeto-Mobile-2D-Grupo1
-Projeto de programação mobile, criação de um aplicativo de música.
+# Projeto 2° ano D 𖦹 Programação Mobile
+###### Sobre o nosso aplicativo
+Lunar music é um aplicativo de música com reprodução offline (...)
