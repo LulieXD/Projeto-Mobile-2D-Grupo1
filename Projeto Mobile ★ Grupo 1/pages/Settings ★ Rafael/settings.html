@@ -28,9 +28,9 @@
 
 <!--BOTÃO DE ALTERAR TEMA-->
 
-<div class="botoes">
+<div class="botoes" id="theme-toggle">
     <section class="tema-icon">
-        <button id="theme-toggle"><i class="bi bi-brightness-high"></i></button>
+<i class="bi bi-brightness-high"></i>
     </section>
     <section class="tema">
         <h1 style="margin-bottom: -3%; margin-top: 10px; margin-left: 10px;">Tema</h1>
@@ -41,57 +41,65 @@
 
 <!--BOTÃO DE REPRODUÇÃO OFFLINE-->
 
-<div class="downloadDiv">
+<a href="/Projeto Mobile ★ Grupo 1/pages/Settings ★ Rafael/reproducao.html" style="text-decoration: none;">
+    <div class="downloadDiv">
     <section class="downloadIcon">
-        <a href="/Projeto Mobile ★ Grupo 1/pages/Settings ★ Rafael/reproducao.html"><i class="bi bi-download"></i></a>
+       <i class="bi bi-download"></i>
     </section>
     <section class="download">
         <h1 style="margin-bottom: -3%; margin-top: 10px; margin-left: 10px;">Reprodução Offline</h1>
         <p style="margin-left: 12px; margin-top: 5px;">Permite ouvir músicas baixadas</p>
     </section>
 </div>
+</a>
 
 <!--REPORTAR BUGS-->
 
-<div class="reportDiv">
-    <section class="reportIcon">
-        <a href="/Projeto Mobile ★ Grupo 1/pages/Reports ★ André/reports.html"><i class="bi bi-exclamation-triangle"></i></i></a>
-    </section>
-    <section class="report">
-        <h1 style="margin-bottom: -3%; margin-top: 10px; margin-left: 10px;">Reportar Bugs</h1>
-        <p style="margin-left: 12px; margin-top: 5px;">Está com algum problema? Reporte aqui</p>
-    </section>
-</div>
+<a href="/Projeto Mobile ★ Grupo 1/pages/Reports ★ André/reports.html" style="text-decoration: none;">
+    <div class="reportDiv">
+        <section class="reportIcon">
+           <i class="bi bi-exclamation-triangle"></i>
+        </section>
+        <section class="report">
+            <h1 style="margin-bottom: -3%; margin-top: 10px; margin-left: 10px;">Reportar Bugs</h1>
+            <p style="margin-left: 12px; margin-top: 5px;">Está com algum problema? Reporte aqui</p>
+        </section>
+    </div>
+</a>
 
 <!--SOBRE OS DESENVOLVEDORES-->
 
-<div class="devsDiv">
-    <section class="devsIcon">
-        <a href="/Projeto Mobile ★ Grupo 1/pages/Settings ★ Rafael/SobreDevs.html"><i class="bi bi-person"></i></a></a>
-    </section>
-    <section class="devs">
-        <h1 style="margin-bottom: -3%; margin-top: 10px; margin-left: 10px;">Sobre os Desenvolvedores</h1>
-        <p style="margin-left: 12px; margin-top: 5px;">Um pouco sobre os desenvolvedores</p>
-    </section>
-</div>
+<a href="/Projeto Mobile ★ Grupo 1/pages/Settings ★ Rafael/SobreDevs.html" style="text-decoration: none;">
+    <div class="devsDiv">
+        <section class="devsIcon">
+            <i class="bi bi-person"></i>
+        </section>
+        <section class="devs">
+            <h1 style="margin-bottom: -3%; margin-top: 10px; margin-left: 10px;">Sobre os Desenvolvedores</h1>
+            <p style="margin-left: 12px; margin-top: 5px;">Um pouco sobre os desenvolvedores</p>
+        </section>
+    </div>
+</a>
 
 <!--SOBRE O APP-->
 
-<div class="sobreDiv">
-    <section class="sobreIcon">
-        <a href="/Projeto Mobile ★ Grupo 1/pages/Settings ★ Rafael/SobreApp.html"><i class="bi bi-exclamation-lg" style="font-size: 50px;"></i></a>
-    </section>
-    <section class="sobre">
-        <h1 style="margin-bottom: -3%; margin-top: 10px; margin-left: 10px;">Sobre o App</h1>
-        <p style="margin-left: 12px; margin-top: 5px;">Versão - Politica de privacidade</p>
-    </section>
-</div>
+<a href="/Projeto Mobile ★ Grupo 1/pages/Settings ★ Rafael/SobreApp.html" style="text-decoration: none;">
+    <div class="sobreDiv">
+        <section class="sobreIcon">
+            <i class="bi bi-exclamation-lg" style="font-size: 50px;"></i>
+        </section>
+        <section class="sobre">
+            <h1 style="margin-bottom: -3%; margin-top: 10px; margin-left: 10px;">Sobre o App</h1>
+            <p style="margin-left: 12px; margin-top: 5px;">Versão - Politica de privacidade</p>
+        </section>
+    </div>
+</a>
 
 <!--EXCLUIR CONTA-->
 
-<div class="deletDiv">
+<div class="deletDiv" onclick="deletar()">
     <section class="deletIcon">
-        <i class="bi bi-trash3" style="color: #E91818;" onclick="myFunction()"></i>
+        <i class="bi bi-trash3" style="color: #E91818;"></i>
     </section>
     <section class="delet">
         <h1 style="margin-bottom: -3%; margin-top: 10px; margin-left: 10px; color: #E91818;">Excluir Conta</h1>

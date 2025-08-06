@@ -7,7 +7,6 @@ const body = document.body;
 function toggleTheme() {
     body.classList.toggle('dark-mode');
 
-    // Salvar a preferência do usuário no armazenamento local
     if (body.classList.contains('dark-mode')) {
         localStorage.setItem('theme', 'dark');
     } else {
@@ -15,18 +14,16 @@ function toggleTheme() {
     }
 }
 
-// Verificar a preferência do usuário ao carregar a página
 const savedTheme = localStorage.getItem('theme');
 if (savedTheme === 'dark') {
     body.classList.add('dark-mode');
 }
 
-// Adicionar um ouvinte de evento para o botão
 themeToggle.addEventListener('click', toggleTheme);
 
 //excluir conta
 
-function myFunction() {
+function deletar() {
   var txt;
   if (confirm("Sua conta será excluida caso\nconcorde com esta mensagem")) {
     window.location.href="/Projeto Mobile ★ Grupo 1/pages/Login ★ Maria/index.html"

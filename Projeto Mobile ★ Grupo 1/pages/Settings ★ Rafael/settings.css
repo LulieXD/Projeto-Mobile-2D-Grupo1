@@ -177,6 +177,13 @@ body {
     }
 
     /*Mudar cor de Divs*/
+
+    h1 {
+        color: #000;
+    }
+    p {
+        color: black;
+    }
     .header {
         position: fixed;
         display: flex;
@@ -245,6 +252,57 @@ body {
     }
     }
 
+/*MÚSICAS*/
+    .musicas h1 {
+    color: #adadad;
+    font-size: 1.5rem;
+    margin-bottom: 0.05rem;
+    
+}
+
+.musicas p {
+    color: #adadad;
+    font-size: 0.7rem;
+}
+
+/*SOBRE O APP*/
+.CaixaDeTexto1 {
+    margin-top: 5.6rem;
+    background-color: #dcdcdc;
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 7rem;
+    max-width: 50%;
+    min-width: 25%;
+    text-align: justify;
+}
+
+.CaixaDeTexto1 p {
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    font-size: 2rem;
+    color: black;
+}
+
+.CaixaDeTexto2 {
+    margin-top: 5.6rem;
+    background-color: #dcdcdc;
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 7rem;
+    max-width: 70%;
+    min-width: 60%;
+    text-align: justify;
+}
+
+.CaixaDeTexto2 p {
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    font-size: 2rem;
+    text-align: justify;
+    font-size: 1.25rem;
+    color: black;
+}
     
 }
 
@@ -259,6 +317,14 @@ body.dark-mode {
     }
 
     /*Mudar cor de divs*/
+    h1 {
+        color: white;
+        text-decoration: none;
+    }
+    p {
+        color: white;
+        text-decoration: none;
+    }
     .header {
         position: fixed;
         display: flex;
@@ -326,6 +392,19 @@ body.dark-mode {
     }
     }
 
+/*MÚSICAS*/
+    .musicas h1 {
+    color: #1d1d1d;
+    font-size: 1.5rem;
+    margin-bottom: 0.05rem;
+    
+}
+
+.musicas p {
+    color: #1d1d1d;
+    font-size: 0.7rem;
+}
+
 /*SOBRE O APP*/
 .CaixaDeTexto1 {
     margin-top: 5.6rem;
@@ -333,14 +412,36 @@ body.dark-mode {
     border-radius: 10px;
     margin: auto;
     margin-top: 7rem;
-    max-width: 50%;
-    min-width: 25%;
+    max-width: 70%;
+    min-width: 60%;
     text-align: justify;
 }
 
 .CaixaDeTexto1 p {
     margin-left: 2.5%;
     margin-right: 2.5%;
+    font-size: 2rem;
+    color: white;
+}
+
+/*SOBRE OS DEVS*/
+
+.CaixaDeTexto2 {
+    margin-top: 5.6rem;
+    background-color: #151515;
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 7rem;
+    max-width: 70%;
+    min-width: 60%;
+}
+
+.CaixaDeTexto2 p {
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    text-align: justify;
+    font-size: 1.25rem;
+    color: white;
 }
 }
 
@@ -351,11 +452,60 @@ body.dark-mode {
 
 /*PARTE DE PLAYERS DE MÚSICA*/
 
-#NewJean {
-  border: 2px solid #f1f3f4;
-  border-radius: 5px;
-  background-color: #f1f3f4;
-  margin-top: 90px;
+.musicas {
+    margin-top: 5rem;
+    margin-left: 1rem;
+    display: grid;
+    gap: 1.25rem;
 }
 
+#CharlieBrownJr {
+  border: 2px solid #f1f3f4;
+  max-width: 50%;
+  border-radius: 5px;
+  background-color: #f1f3f4;
+}
+#Kleberiano {
+  border: 2px solid #f1f3f4;
+  max-width: 50%;
+  border-radius: 5px;
+  background-color: #f1f3f4;
+}
+#NewJeans {
+  border: 2px solid #f1f3f4;
+  max-width: 50%;
+  border-radius: 5px;
+  background-color: #f1f3f4;
+}
+#Sabaton {
+  border: 2px solid #f1f3f4;
+  max-width: 50%;
+  border-radius: 5px;
+  background-color: #f1f3f4;
+}
 
+.CharlieBrownJr {
+    display: flex;
+    justify-content: left;
+}
+
+.Kleberiano {
+    display: flex;
+    justify-content: left;
+}
+
+.NewJeans {
+    display: flex;
+    justify-content: left;
+}
+
+.Sabaton {
+    display: flex;
+    justify-content: left;
+}
+
+.texto {
+    display: grid;
+    align-items: center;
+    margin-left: 1rem;
+}
