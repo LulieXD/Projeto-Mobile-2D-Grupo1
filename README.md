@@ -18,6 +18,6 @@ Lunar music é um aplicativo de música com reprodução offline, desenvolvido e
   <img src="https://contrib.rocks/image?repo=LulieXD/Projeto-Mobile-2D-Grupo1" />
 </a><br><br>
 Nosso aplicativo foi desenvolvido em um período de 3 meses, onde tivemos sprints semanais (não toda semana, mas semanas variadas, por conta de ser durante a aula — e as aulas serem limitadas) e em geral, manteve-se o contato em grupo via Whatsapp durante a realização do trabalho. O projeto foi feito apenas com html, css e js — onde dividimos por 6 categorias categorias/páginas e, cada um ficou responsável por uma delas. Em nosso repositório, é possível perceber pelos nomes, a identificação de cada página e seu responsável. Abaixo, vou descrever e mostrar a página de cada um dos integrantes do projeto.<br><br>
-₊ ⊹ Página de Login • Maria
-₊ ⊹ Página inicial • Michelle
+₊ ⊹ Página de Login • Maria<br>
+₊ ⊹ Página inicial • Michelle<br>
 ₊ ⊹ Biblioteca de músicas • Flávio
