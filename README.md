@@ -36,7 +36,7 @@ Não usamos banco de dados; as informações de login são pré-definidas:
 - Usuário: `usuario`  
 - Senha: `123`  
 
-<div style="display: flex; gap: 10px;">
+<div style="display: flex; flex-wrap: wrap; gap: 10px;">
  <div>
   <img src="https://cdn.discordapp.com/attachments/1275963305000702003/1404165598598139984/CEET5m7.png?ex=689a329e&is=6898e11e&hm=0123fc61290806d65437c66ab7e47813c0ed6cdfd6d53ea28c49f2f3a46265c2&" width="369">
  </div>
@@ -81,17 +81,19 @@ Fundo preto/cinza escuro, com quatro opções de problemas comuns: funcionalidad
 Há também a opção “outros”, com campo de texto para relato.  
 Ao selecionar uma opção, a caixa fica roxa. Ao enviar, a seleção é desmarcada e aparece uma mensagem de confirmação.
 
-<img src="https://cdn.discordapp.com/attachments/1275963305000702003/1404169844777160704/cbMXLti.png?ex=689a3693&is=6898e513&hm=83af8f5589bf3aed9760e44e3d7cc2aa518bf87e423eb8aeeec5fb244bad6534&" width="369">
+<div style="display: flex; flex-wrap: wrap; gap: 10px;">
+  <img src="https://cdn.discordapp.com/attachments/1275963305000702003/1404169844777160704/cbMXLti.png?ex=689a3693&is=6898e513&hm=83af8f5589bf3aed9760e44e3d7cc2aa518bf87e423eb8aeeec5fb244bad6534&" width="369">
 <img src="https://cdn.discordapp.com/attachments/1275963305000702003/1404170023878262895/qX4ufqh.png?ex=689a36bd&is=6898e53d&hm=022d81fbad24998b922500e19e0066a1c73985e5b2ac06d0e324cc98f0411686&" width="369">
 <img src="https://cdn.discordapp.com/attachments/1275963305000702003/1404170061102583959/Jq6sN3b.png?ex=689a36c6&is=6898e546&hm=c8245dd834105e660ed7946caeb5a38e6cef67b059b89d880ba13d7df7c6aa53&" width="369">
+</div><br>
 
 ---
 
 ### ᯓ★ Páginas incompletas
 
-- **Perfil dos artistas • Emilly** → mostraria foto, nome e biografia dos artistas.  
-- **Músicas dos artistas • Emilly** → mostraria músicas mais ouvidas dos artistas.  
-- **Perfil do usuário • Maria** → mostraria foto de perfil, nome, playlists e artistas favoritos.  
+- **Perfil dos artistas • Emilly** → esta página supostamente mostraria foto, nome e biografia dos artistas.  
+- **Músicas dos artistas • Emilly** → esta página supostamente mostraria músicas mais ouvidas dos artistas.  
+- **Perfil do usuário • Maria** → esta página supostamente mostraria foto de perfil, nome, playlists e artistas favoritos.  
 
 ---
 
