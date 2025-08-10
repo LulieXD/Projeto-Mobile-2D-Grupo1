@@ -9,12 +9,12 @@ body {
     align-items: center;
     font-family: 'Lexend', sans-serif;
 
-    background-image: url('assets/purple-gradient.png');
+    background-image: url('../../assets/purple-gradient.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-
 }
+
 
 :root {
     --accent: #e3bbff;
@@ -24,7 +24,7 @@ body {
 }
 
 form {
-    padding: 30px;
+    padding: 20px;
     border-radius: 15px;
     text-align: center;
     width: 300px;
@@ -41,7 +41,7 @@ form h3 {
 
 input[type="text"],
 input[type="password"] {
-    width: 100%;
+    width: 90%;
     padding: 10px;
     margin-bottom: 10px;
     border: none;
