@@ -107,7 +107,7 @@ Com o projeto finalizado, mostramos abaixo o link do protótipo no Figma e as an
 
 ###### (Anotações feitas por Emilly e aperfeiçoadas por Maria)
 
-### ⋆˚꩜｡ Sprint semanal 1 (dd/mm/aaaa)  
+### ⋆˚꩜｡ Sprint semanal 1 (01/07/2025)  
 **(O que fez até agora e o que pretende fazer)**  
 
 - Rafael → adicionou botão de alteração de tema escuro/claro; pretende terminar funcionalidades dos botões.  
