@@ -62,7 +62,7 @@ Página de bibioteca, onde as playlists podem ser vistas, além dos albums recen
 1. A seta no início da página envia o usuário para a Home(tela inicial);
 2. O ícone de lista ao lado da seta envia o usuário para a página de Settings(opções).
 
-   <img width="369" height="445" alt="Captura de tela 2025-08-10 224342" src="https://github.com/user-attachments/assets/732ce248-6a06-47be-b6bf-e00f96c89865" />
+   <img width="369" height="500" alt="Captura de tela 2025-08-10 224342" src="https://github.com/user-attachments/assets/732ce248-6a06-47be-b6bf-e00f96c89865" />
 
 
 #### ₊ ⊹ Configurações • Rafael  
