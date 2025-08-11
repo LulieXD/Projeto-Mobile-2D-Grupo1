@@ -1,24 +1,80 @@
 <!-- Library ★ Flávio--->
 
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
-
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Library</title>
+    <title>Minhas Playlists</title>
     <link rel="stylesheet" href="library.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
 </head>
 <body>
-    <h1>Minhas Playlists</h1>
 
-    <div class="flex-conteiner">
-    <div>Músicas Curtidas.</div>
-    <div>Playlist - Mateus</div>
-</div>
+        <main>
+            
+            <div class="capa-topo">
+                
+                    <a href="/Projeto Mobile ★ Grupo 1/pages/Home ★ Shelly/home.html"><svg xmlns="http://www.w3.org/2000/svg" width="40px" height="40px" fill="white" class="bi bi-arrow-left" viewBox="0 0 16 16">
+  <path fill-rule="evenodd" d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8"/>
+</svg></a>
+        
 
-    <script src="library.js"></script>
-</body>
+          <svg xmlns="http://www.w3.org/2000/svg" width="40px" height="40px" fill="white" class="icon" viewBox="0 0 16 16">
+  <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"/>
+</svg>
+            </div>
 
+            <h1>Minhas Playlists</h1>
 
-</html>
+            <section class="playlist-list">
+                <div class="playlist-item">
+                    </div>
+
+                     <div class="playlist-item">
+                    <img class="playlist-capa" src="assets/favoritas.png">
+                    <div class="playlist-detalhes">
+                        <p class="playlist-nome"> Músicas Curtidas</p>
+                        <p class="playlist-autor">Playlist - Mateus</p>
+                    </div>
+                </div>
+
+                <div class="playlist-item">
+                    <img class="playlist-capa" src="assets/relaxing.png">
+                    <div class="playlist-detalhes">
+                        <p class="playlist-nome">Relaxing</p>
+                        <p class="playlist-autor">Playlist - Mateus</p>
+                    </div>
+                </div>
+
+                <div class="playlist-item">
+                    <img class="playlist-capa" src="assets/1900x1900-000000-80-0-0.jpg">
+                    <div class="playlist-detalhes">
+                       <div class="icon"><svg xmlns="http://www.w3.org/2000/svg" width="40px" height="40px" fill="white" class="icon" viewBox="0 0 16 16">
+  <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"/>
+</svg></div>
+                        <p class="playlist-nome">Monster</p>
+                        <p class="playlist-autor">Playlist - Mateus</p>
+                    </div>
+                </div>
+
+                <div class="playlist-item">
+                    <img class="playlist-capa" src="assets/imunidademscal.jpg">
+                    <div class="playlist-detalhes">
+                        <p class="playlist-nome">Imunidade Musical</p>
+                        <p class="playlist-autor">Playlist - Mateus</p>
+                    </div>
+                </div>
+
+                <div class="gambiarra"></div>
+            </section>
+        </main>
+
+        <footer>
+            <div class="tocando-agora">
+                <img class="album-capa" src="assets/sabaton.jpg">
+                <div class="song-info">
+                    <p class="nome-musica">Sabaton - Night Witches</p>
+                    <p class="musica-tocando">Tocando - Bluethoot</p>
+                </div>
