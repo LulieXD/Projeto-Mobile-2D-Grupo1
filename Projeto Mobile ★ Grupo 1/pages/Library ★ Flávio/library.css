@@ -5,6 +5,7 @@
     padding: 0;
     background-color: #000000;
     color: #ffffff;
+    box-sizing: border-box;
 }
 
 body {
@@ -91,9 +92,12 @@ main h1 {
 
 .icon {
     background-color: #151515;
-    display: flex;
-    align-items: end;
-    justify-content: right;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.seta {
+    background-color: #151515;
 }
 
 /* Rodapé / Barra de Reprodução */
@@ -135,4 +139,11 @@ footer {
 
 .song-info {
     background-color: #293134;
+}
+
+.playback {
+    background-color: #293134;
+    display: inline;
+    justify-content: right;
+    align-items: center;
 }
