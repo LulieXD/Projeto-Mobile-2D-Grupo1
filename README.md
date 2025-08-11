@@ -57,7 +57,13 @@ O conteúdo principal mostra:
 <img src="https://cdn.discordapp.com/attachments/1275963305000702003/1404178039188881529/f90vtKj.png?ex=689a3e34&is=6898ecb4&hm=2d14f8b312fc804b8b958b247ddfaa94989e4e35d64b65ba30e78a93cafb7628&" width="369">
 
 #### ₊ ⊹ Biblioteca de músicas • Flávio  
-(Descrição pendente)
+Página de bibioteca, onde as playlists podem ser vistas, além dos albums recentes que você escutou. A página apresenta duas funcionalidades
+
+1. A seta no início da página envia o usuário para a Home(tela inicial);
+2. O ícone de lista ao lado da seta envia o usuário para a página de Settings(opções).
+
+   <img width="207" height="445" alt="Captura de tela 2025-08-10 224342" src="https://github.com/user-attachments/assets/732ce248-6a06-47be-b6bf-e00f96c89865" />
+
 
 #### ₊ ⊹ Configurações • Rafael  
 Tela com seis opções:  
