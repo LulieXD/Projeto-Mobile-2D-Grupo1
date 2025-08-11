@@ -58,11 +58,11 @@ O conteúdo principal mostra:
 
 #### ₊ ⊹ Biblioteca de músicas • Flávio  
 Página de bibioteca, onde as playlists podem ser vistas, além dos albums recentes que você escutou. A página apresenta duas funcionalidades
-
 1. A seta no início da página envia o usuário para a Home(tela inicial);
 2. O ícone de lista ao lado da seta envia o usuário para a página de Settings(opções).
 
-   <img width="369" height="500" alt="Captura de tela 2025-08-10 224342" src="https://github.com/user-attachments/assets/732ce248-6a06-47be-b6bf-e00f96c89865" />
+  <img width="252" height="515" alt="Captura de tela 2025-08-09 155336" src="https://github.com/user-attachments/assets/cd9df1a8-56bd-4568-9109-f8694736f3f9" />
+
 
 
 #### ₊ ⊹ Configurações • Rafael  
