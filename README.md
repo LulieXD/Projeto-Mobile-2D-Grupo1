@@ -143,7 +143,7 @@ Com o projeto finalizado, mostramos abaixo o link do protótipo no Figma e as an
 - Possível problema de adaptação para diferentes tamanhos de tela e renderização ao navegar entre páginas.  
 
 ### ⋆˚꩜｡ Agradecimentos  
-Agradecemos a todos os participantes e apoiadores do projeto, e ao professor Matheus Maidel pela proposta, que nos permitiu conhecer novas ferramentas (Figma, Bootstrap) e aprimorar conhecimentos básicos em HTML, CSS e JavaScript.  
+Agradecemos a todos os participantes e apoiadores do projeto, e ao professor Mateus Maidel pela proposta, que nos permitiu conhecer novas ferramentas (Figma, Bootstrap) e aprimorar conhecimentos básicos em HTML, CSS e JavaScript.  
 Obrigado pela atenção!  
 
 ---
