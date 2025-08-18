@@ -139,7 +139,7 @@ Com o projeto finalizado, mostramos abaixo o link do protótipo no Figma e as an
 ## Considerações finais
 
 ### ⋆˚꩜｡ "Erros"  
-- A página inicial não possui botões funcionais (redirecionamentos não funcionam). É preciso abrir as páginas separadamente.  
+- A página de playlists não renderiza corretamente, fica apenas uma tela preta.  
 - Possível problema de adaptação para diferentes tamanhos de tela e renderização ao navegar entre páginas.  
 
 ### ⋆˚꩜｡ Agradecimentos  
